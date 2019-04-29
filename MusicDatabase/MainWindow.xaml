@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Music Database" Margin="349,10,349,0" VerticalAlignment="Top"/>
+        <ListView HorizontalAlignment="Left" Height="343" Margin="10,41,0,0" VerticalAlignment="Top" Width="772">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Band" Width="500" DisplayMemberBinding="{Binding Path=BandName}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="707,389,0,0" VerticalAlignment="Top" Width="75" Click="BtnExit_Click"/>
+        <Button Name="btnChange" Content="Change" HorizontalAlignment="Left" Margin="627,389,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="btnNew" Content="New" HorizontalAlignment="Left" Margin="547,389,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>

@@ -24,5 +24,10 @@ namespace MusicDatabase
         {
             InitializeComponent();
         }
+
+        private void BtnExit_Click(object sender, RoutedEventArgs e)
+        {
+            System.Environment.Exit(0);
+        }
     }
 }
