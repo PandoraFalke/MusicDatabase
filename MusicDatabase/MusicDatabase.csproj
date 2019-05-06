@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Library">
+      <HintPath>..\..\..\ClassLibrary\Library\Library\bin\Debug\Library.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -67,6 +70,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Model\Album.cs" />
+    <Compile Include="Model\Band.cs" />
+    <Compile Include="Model\Track.cs" />
+    <Compile Include="Persistenz\DBAlbum.cs" />
+    <Compile Include="Persistenz\DBBand.cs" />
+    <Compile Include="Persistenz\DBTrack.cs" />
+    <Compile Include="ViewModel\BaseModel.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="Windows\AlbumWindow.xaml.cs">
       <DependentUpon>AlbumWindow.xaml</DependentUpon>
     </Compile>
@@ -101,5 +112,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
