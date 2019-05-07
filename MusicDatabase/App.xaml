@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:MusicDatabase"
              StartupUri="Windows/MainWindow.xaml">
     <Application.Resources>
-         
+        <local:MainViewModel x:Key="mvmodel"/>
     </Application.Resources>
 </Application>

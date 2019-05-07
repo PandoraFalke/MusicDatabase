@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MusicDatabase.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,7 @@ namespace MusicDatabase
     /// </summary>
     public partial class MainWindow : Window
     {
+        private MainViewModel _viewmodel;
         public MainWindow()
         {
             InitializeComponent();
@@ -28,6 +30,11 @@ namespace MusicDatabase
         private void BtnExit_Click(object sender, RoutedEventArgs e)
         {
             System.Environment.Exit(0);
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            this._viewmodel = FindResource("mvmodel") as MainViewModel;
         }
     }
 }

@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MusicDatabase"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid DataContext="{StaticResource mvmodel}">
         <Label Content="Music Database" Margin="349,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="94"/>
         <ListView Height="343" Margin="10,41,10,0" VerticalAlignment="Top">
             <ListView.View>
