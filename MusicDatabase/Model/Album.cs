@@ -10,7 +10,7 @@ namespace MusicDatabase.Model
     class Album
     {
         /// <summary>
-        /// test something else
+        /// test master
         /// </summary>
         private int _id;
         private int _bandId;
