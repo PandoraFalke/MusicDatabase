@@ -13,7 +13,7 @@ namespace MusicDatabase.Model
         private int _bandId;
         private string _albumName;
         private string _genre;
-        private DateTime _date;
+        private DateTime _date; 
         
         /// <summary>
         /// Constructors
