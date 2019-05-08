@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicDatabase", "MusicDatabase\MusicDatabase.csproj", "{820D83AC-6156-43B3-8BCF-70602F3DB958}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library\Library.csproj", "{74E83C22-DC03-4A0C-A046-3D976B4338C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{820D83AC-6156-43B3-8BCF-70602F3DB958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{820D83AC-6156-43B3-8BCF-70602F3DB958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{820D83AC-6156-43B3-8BCF-70602F3DB958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E83C22-DC03-4A0C-A046-3D976B4338C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E83C22-DC03-4A0C-A046-3D976B4338C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E83C22-DC03-4A0C-A046-3D976B4338C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E83C22-DC03-4A0C-A046-3D976B4338C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
