@@ -9,6 +9,9 @@ namespace MusicDatabase.Model
 {
     class Album
     {
+        /// <summary>
+        /// test something
+        /// </summary>
         private int _id;
         private int _bandId;
         private string _albumName;
